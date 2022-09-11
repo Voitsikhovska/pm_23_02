@@ -92,6 +92,7 @@ function watch(){
     gulp.watch(paths.scripts.src, scripts)
 }
 
+
 const build = gulp.series(clean, html, gulp.parallel(styles, scripts), watch)
 exports.clean = clean
 exports.img = img
