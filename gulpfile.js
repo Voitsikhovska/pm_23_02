@@ -11,6 +11,7 @@ const imagemin = require('gulp-imagemin')
 const htmlmin = require('gulp-htmlmin')
 const browserSync = require('browser-sync').create()
 const del = require('del')
+
 //напрямки до файлів
 const paths = {
     styles:{

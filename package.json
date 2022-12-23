@@ -35,6 +35,9 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.9.1"
+    "ajax": "^0.0.4",
+    "bootstrap-icons": "^1.9.1",
+    "canvas": "^2.10.1",
+    "jquery": "^3.6.1"
   }
 }
